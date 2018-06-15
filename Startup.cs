@@ -41,7 +41,7 @@ namespace TodoApi
                 app.UseHsts();
             }
   app.UseCors(builder =>
-       builder.WithOrigins("https://jags-app.azurewebsites.net").AllowAnyHeader());
+       builder.WithOrigins("https://jags-new-app-test.azurewebsites.net").AllowAnyHeader());
             app.UseHttpsRedirection();
             app.UseMvc();
         }
